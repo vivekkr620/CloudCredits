@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <!-- Logo - portfolio -->
+        <div class="logo">
+            <p><b>Portfolio</b></p>
+        </div>
+
+        <!-- navigation links -->
+        <nav class="nav">
+
+            <button class="toggle-btn" id="toggleBtn">
+                <i class="fas fa-bars" id="menu-icon"></i>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#Home" class="nav-link active">Home</a></li>
+                <li><a href="#About" class="nav-link">About</a></li>
+                <li><a href="#Skills" class="nav-link">Skills</a></li>
+                <li><a href="#Projects" class="nav-link">Projects</a></li>
+                <li><a href="#Contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!-- Hero Section -->
+    <main class="home" id="Home">
+        <div class="title">
+            <p>Hey there! Glad you'r here 👋</p>
+            <hr class="fade-out">
+        </div>
+
+    </main>
+
+    <main class="hero" id="fullscreen-section">
+        <div class="hero-subtitle">
+            <div class="title-name">
+                <span class="type-text">Vivek kumar</span>
+            </div>
+        </div>
+
+        <p class="hero-desc">
+            I am a 3rd year Computer Science Engineering student with a deep interest in Machine Learning and Deep
+            Learning.
+            I enjoy working on real-world problems using data-driven approaches and aim to build intelligent systems
+            that create meaningful impact.
+            <br><br>
+
+        </p>
+
+        <div class="hero-cta">
+            <a href="#skills" class="btn-holographic secondary">
+
+                <div class="hover-effect"></div>
+                <span>View Skills</span>
+                <!-- <div class="hover-effect"></div> -->
+            </a>
+
+            <a href="#contact" class="btn-holographic secondary">
+
+                <span>Contact Me</span>
+
+            </a>
+        </div>
+
+    </main>
+
+
+    <!-- About Section -->
+    <section id="About" class="section-padding">
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <!-- <span>01.</span> -->
+                    About Me
+                    <i class="fas fa-user-tie"></i>
+                    <!-- <div class="section-divider about"></div> -->
+                </h2>
+
+                <!-- <div class="section-header"></div> -->
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-bio">
+                        <h3>Empowering innovation with every line of code.</h3>
+                        <p>I am a 3rd year B.Tech CSE student with a strong passion for Machine Learning,
+                            Deep Learning, and modern web development using the MERN stack. With hands-on experience in
+                            building responsive websites and full-stack applications, I thrive in solving
+                            real-world problems using code.
+
+                        </p>
+
+                        <div class="about-highlights">
+                            <div class="highlight-card">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>MERN Stack</h4>
+                                <p>Building Modern Web Applications with MERN</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="about-image">
+
+                        <div class="image-wrapper">
+                            <!-- <div class="glow-effect"></div> -->
+                            <img src="vivek.jpg" alt="profile-img" class="profile-img">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Skils section  -->
+    <section id="Skills" class="skills-section">
+        <h2 class="section-title">Skills</h2>
+        <hr class="skills-line">
+
+        <!-- CARD 1 -->
+        <div class="card-item left">
+            <div class="content">
+                <div class="icon"><i class="fas fa-code"></i></div>
+                <h2>Programming C/C++</h2>
+                <p>Strong foundation in logic and problem-solving.
+                    Hands-on with data structures and competitive coding.</p>
+            </div>
+        </div>
+
+
+        <!-- CARD 2 -->
+        <div class="card-item right">
+            <div class="content">
+                <div class="icon"><i class="fas fa-laptop-code"></i></div>
+                <h2>Frontend Development (HTML, CSS, JS)</h2>
+                <p>I craft responsive and interactive web interfaces.
+                    Passionate about clean design and smooth UX.</p>
+            </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="card-item left">
+            <div class="content">
+                <div class="icon"><i class="fas fa-server"></i></div>
+                <h2> Backend Development (Node.js, Express.js)
+                </h2>
+                <p>Build secure and scalable server-side applications.
+                    API design, authentication, and business logic handling.</p>
+            </div>
+        </div>
+
+
+        <!-- card 4 -->
+        <div class="card-item right">
+            <div class="content">
+                <div class="icon"><i class="fas fa-database"></i></div>
+                <h2>Database (SQL)<h2>
+                        <p class="font-size">Proficient in relational database design and queries.
+                            Optimize data flow and ensure data integrity.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Project Section -->
+
+    <section class="section-padding" id="Projects">
+        <div class="container-box">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <!-- <span>03</span> -->
+                    Projects
+                </h2>
+                <!-- <div class="section-divider"></div> -->
+            </div>
+            <div class="projects-container">
+                <!-- PROJECTS - 1 -->
+                <div class="project-card">
+                    <div class="project-preview">
+                        <div class="project-image">
+                            <img src="amazon-clone.jpeg" alt="...">
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Amazone Clone - E-commerce Website UI</h3>
+                        <p class="project-desc">A responsive front-end clone of Amazon's homepage built using HTML, CSS,
+                            and JavaScript to mimic real e-commerce design and interactive
+                        </p>
+                        <ul class="project-tech">
+                            <p>Tech Stack - </p>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JS</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="" class="link-holographic">Source Code</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact section -->
+    <section class="contact-section bg-clr" id="Contact">
+        <div class="contact-container">
+            <div class="section-header">
+                <h2 class="contact-title">
+                    <!-- <span>04</span> -->
+                    Contact Me
+                </h2>
+                <!-- <div class="contact-divider"></div> -->
+            </div>
+
+            <div class="full-row">
+                <div class="contact-information">
+                    <div class="contact-info">
+                        <h3 class="heading">Lets's Build Together with Code</h3>
+                        <p class="paragraph">
+                            Open to opportunities? Let's connect! I'm available for both freelance projects and full-time roles.
+                        </p>
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                   <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-deatil">
+                                    <h4>Email</h4>
+                                    <a href="mailto:vk431152@gmail.con">
+                                        vk431152@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                       <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="contact-deatil">
+                                        <h4>Phone</h4>
+                                        <a href="tel:+916205606989">
+                                            +6205606989
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                       <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-deatil">
+                                        <h4>Location</h4>
+                                        <span>Jaipur, Rajasthan, India</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://github.com/vivekkr620" class="social-icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/vivek-kumar011" class="social-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-information">
+                    <form action="" class="contact-form">
+                        <div class="form">
+                            <input type="text" class="form" placeholder="Enter your name" required'>
+                            
+                        </div>
+                        <div class="form">
+                            <input type="email" class="form" placeholder="Enter your Email">
+
+                        </div>
+                        <div class="form">
+                            <input type="number" class="form" placeholder="Enter your Contact Number">
+
+                        </div>
+                        <div class="form">
+                            <textarea name="" id="" class="form" placeholder="Enetr your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-holographic submit-btn">
+                            <span>Send</span>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
